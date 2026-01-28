@@ -3356,113 +3356,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DIP_x04"
 			(pin_names
 				(offset 0)
@@ -5712,10 +5605,6 @@
 		(uuid "38ff6678-85c5-49d8-9d24-8465611bc5a3")
 	)
 	(no_connect
-		(at 146.05 157.48)
-		(uuid "3bf9d337-9394-4c55-893c-99dc708ea71a")
-	)
-	(no_connect
 		(at 186.69 113.03)
 		(uuid "3cdf7303-57e9-44f4-96d6-0a96bf9b3144")
 	)
@@ -5726,10 +5615,6 @@
 	(no_connect
 		(at 186.69 120.65)
 		(uuid "44c0a78b-9b3c-46d2-884e-6c2d40f1c8c9")
-	)
-	(no_connect
-		(at 153.67 157.48)
-		(uuid "4c259668-6af3-4f9f-8462-ed2ffcba13da")
 	)
 	(no_connect
 		(at 222.25 100.33)
@@ -5802,10 +5687,6 @@
 	(no_connect
 		(at 186.69 107.95)
 		(uuid "c30e5e9f-ef7c-4ed3-a326-1bacebb5148f")
-	)
-	(no_connect
-		(at 139.7 157.48)
-		(uuid "c750a50f-7a8a-42c0-aad9-d680d1cfe573")
 	)
 	(no_connect
 		(at 186.69 100.33)
@@ -5965,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 121.92 105.41)
+			(xy 116.84 105.41) (xy 123.19 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5982,6 +5863,16 @@
 			(type default)
 		)
 		(uuid "27630510-41e1-42e1-8b29-1ffd5b955851")
+	)
+	(wire
+		(pts
+			(xy 177.8 123.19) (xy 186.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f550f6-09b7-4f0a-8f65-745724d5c37c")
 	)
 	(wire
 		(pts
@@ -6045,6 +5936,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 115.57) (xy 29.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c7e1e3-58b5-41b1-b9c5-b5472b2f2314")
+	)
+	(wire
+		(pts
 			(xy 49.53 135.89) (xy 49.53 130.81)
 		)
 		(stroke
@@ -6052,16 +5953,6 @@
 			(type default)
 		)
 		(uuid "37868d23-2130-48cb-ac0c-dd3d43d95875")
-	)
-	(wire
-		(pts
-			(xy 41.91 180.34) (xy 41.91 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38cff357-59f6-433d-bbbe-0dd46b88d6cf")
 	)
 	(wire
 		(pts
@@ -6172,6 +6063,16 @@
 			(type default)
 		)
 		(uuid "5212155b-cbba-4d5b-92f1-66e68e7f776e")
+	)
+	(wire
+		(pts
+			(xy 41.91 177.8) (xy 41.91 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538e9b1a-dcf4-4065-a148-2406fc731fa7")
 	)
 	(wire
 		(pts
@@ -6725,6 +6626,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 125.73) (xy 186.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b9a982-15f9-4e48-be50-a59f24736755")
+	)
+	(wire
+		(pts
 			(xy 222.25 54.61) (xy 226.06 54.61)
 		)
 		(stroke
@@ -6762,6 +6673,26 @@
 			(type default)
 		)
 		(uuid "f0780dca-77e3-4407-9731-8aab2907e3ab")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 186.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b77d2a-6830-47a8-b479-d701b5def456")
+	)
+	(wire
+		(pts
+			(xy 20.32 140.97) (xy 29.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44092d1-5ac7-42a2-ad73-d948e240b331")
 	)
 	(wire
 		(pts
@@ -6853,6 +6784,26 @@
 		)
 		(uuid "1b11a166-90fe-45ac-9e3c-e76f7535d753")
 	)
+	(label "Activate"
+		(at 177.8 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c3e71a7-2481-40c8-af88-49a8955ebbf1")
+	)
+	(label "NRST"
+		(at 41.91 185.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "200e8eff-db88-433a-8d43-c780066972f0")
+	)
 	(label "I2C_SCL"
 		(at 24.13 71.12 180)
 		(effects
@@ -6883,6 +6834,16 @@
 		)
 		(uuid "3f65c8fc-72ec-41ed-9a3c-735154ac7464")
 	)
+	(label "Charge"
+		(at 21.59 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47d63629-d4fc-4828-bfaa-0368afc59533")
+	)
 	(label "M_PB14"
 		(at 96.52 147.32 0)
 		(effects
@@ -6892,6 +6853,16 @@
 			(justify left bottom)
 		)
 		(uuid "4cf335b9-30b2-4b02-9858-c3fc7217f765")
+	)
+	(label "Charge"
+		(at 177.8 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5123183a-7f2b-4431-a726-6d9e9dab10b9")
 	)
 	(label "M_PB14"
 		(at 177.8 135.89 0)
@@ -6904,12 +6875,12 @@
 		(uuid "54a50aab-5095-4bfe-a351-82448381f206")
 	)
 	(label "12v"
-		(at 121.92 105.41 0)
+		(at 123.19 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "680e5508-3542-4310-a545-f4c51eb47362")
 	)
@@ -6943,6 +6914,16 @@
 		)
 		(uuid "8454db31-cd93-4fc5-8c27-2ec95bcebb42")
 	)
+	(label "NRST"
+		(at 177.8 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f2b8ea9-13b5-4f8b-9ac6-302844ea5681")
+	)
 	(label "I2C_SDA"
 		(at 24.13 76.2 180)
 		(effects
@@ -6962,6 +6943,16 @@
 			(justify left bottom)
 		)
 		(uuid "91e08fa6-ece3-4a06-8482-0fbb22d91b9b")
+	)
+	(label "Activate"
+		(at 20.32 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9e40122-78ad-4cfd-ad1a-6eb79dd1fc93")
 	)
 	(label "M_PB13"
 		(at 177.8 133.35 0)
@@ -7072,138 +7063,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff5410ee-e1a4-4b5f-8cad-97c1f8273eaf")
-	)
-	(global_label "Charge"
-		(shape input)
-		(at 29.21 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "06504b81-37ed-4073-bcb0-e5ce93e46e2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.633 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NRST"
-		(shape input)
-		(at 41.91 180.34 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e8a1882-9f76-4bda-b33f-79861ad3a852")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 188.1028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Activate"
-		(shape input)
-		(at 29.21 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "80838d8c-b963-46cc-913a-510d71d80917")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.7862 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NRST"
-		(shape input)
-		(at 186.69 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5f432f8-9c1b-46aa-85ac-8b80906204e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.9272 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Activate"
-		(shape input)
-		(at 186.69 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd94fcba-8f26-4ab7-9156-79284ac51d56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.2662 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Charge"
-		(shape input)
-		(at 186.69 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e512c7e1-2a5b-4a46-a0c7-d38e4c669f87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.113 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7364,7 +7223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 176.2252 62.23 0)
 			(effects
 				(font
@@ -7434,7 +7293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 40.3352 54.61 0)
 			(effects
 				(font
@@ -7502,7 +7361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 109.982 156.21 90)
 			(effects
 				(font
@@ -7895,73 +7754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 153.67 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a8e2ad1-4937-4f51-9b92-ba71b50bc5a9")
-		(property "Reference" "H3"
-			(at 156.21 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 156.21 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 153.67 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f36ade82-bd6e-4ee8-aac9-0bb0f3856def")
-		)
-		(instances
-			(project "IMP_nano"
-				(path "/1380bf0b-ebcf-4197-8419-e21f84722079"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 234.95 115.57 90)
 		(unit 1)
@@ -8052,7 +7844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 107.442 153.67 90)
 			(effects
 				(font
@@ -8120,7 +7912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 33.02 142.748 90)
 			(effects
 				(font
@@ -8403,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 107.442 143.51 90)
 			(effects
 				(font
@@ -9006,7 +8798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 33.02 117.348 90)
 			(effects
 				(font
@@ -9073,7 +8865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.56 183.1848 0)
 			(effects
 				(font
@@ -9141,7 +8933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 24.892 80.01 90)
 			(effects
 				(font
@@ -9276,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 24.892 67.31 90)
 			(effects
 				(font
@@ -9608,7 +9400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 214.3252 62.23 0)
 			(effects
 				(font
@@ -9678,7 +9470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 227.0252 62.23 0)
 			(effects
 				(font
@@ -9812,7 +9604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 111.76 182.118 90)
 			(effects
 				(font
@@ -10604,7 +10396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.5252 62.23 0)
 			(effects
 				(font
@@ -10874,7 +10666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 190.1952 62.23 0)
 			(effects
 				(font
@@ -10944,7 +10736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 150.8252 62.23 0)
 			(effects
 				(font
@@ -11014,7 +10806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 27.6352 54.61 0)
 			(effects
 				(font
@@ -11084,7 +10876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 53.0352 54.61 0)
 			(effects
 				(font
@@ -11152,7 +10944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 113.538 140.97 90)
 			(effects
 				(font
@@ -11407,73 +11199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 139.7 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba1cc215-edfd-436e-928e-d1ddaa26adf0")
-		(property "Reference" "H1"
-			(at 142.24 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 142.24 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 139.7 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ee44e0a-66ec-418c-8b8d-c6f72ccfe5ff")
-		)
-		(instances
-			(project ""
-				(path "/1380bf0b-ebcf-4197-8419-e21f84722079"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 40.64 147.32 0)
 		(mirror x)
@@ -11499,7 +11224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 38.862 147.32 90)
 			(effects
 				(font
@@ -11701,7 +11426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 46.99 179.578 90)
 			(effects
 				(font
@@ -11803,73 +11528,6 @@
 			(project "IMP_nano"
 				(path "/1380bf0b-ebcf-4197-8419-e21f84722079"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 146.05 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7f7b0d4-e6a5-4edc-9dcc-853933510093")
-		(property "Reference" "H2"
-			(at 148.59 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 148.59 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 146.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46ead1f8-642c-4b38-af9b-860331b1b868")
-		)
-		(instances
-			(project "IMP_nano"
-				(path "/1380bf0b-ebcf-4197-8419-e21f84722079"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12565,7 +12223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 248.6152 62.23 0)
 			(effects
 				(font
@@ -12635,7 +12293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 138.1252 62.23 0)
 			(effects
 				(font

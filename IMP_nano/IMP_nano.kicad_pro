@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -458,7 +458,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.175,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -478,56 +478,74 @@
         "clearance": 0.6,
         "name": "12v",
         "pcb_color": "rgb(255, 11, 146)",
-        "priority": 8,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 5.0
+        "track_width": 2.0
+      },
+      {
+        "name": "12v_s",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "BOOT0",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 4,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "BUZ",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "CLK",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DIO",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 5,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "I2C",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 7,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Mode but",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 6,
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "NRST",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "WKP",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 3,
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "det_contr",
+        "pcb_color": "rgb(132, 132, 0)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -576,6 +594,30 @@
       {
         "netclass": "BOOT0",
         "pattern": "/BOOT0"
+      },
+      {
+        "netclass": "det_contr",
+        "pattern": "/Activate"
+      },
+      {
+        "netclass": "det_contr",
+        "pattern": "/Charge"
+      },
+      {
+        "netclass": "NRST",
+        "pattern": "/NRST"
+      },
+      {
+        "netclass": "12v_s",
+        "pattern": "/Q2_1"
+      },
+      {
+        "netclass": "12v_s",
+        "pattern": "/Q1_1"
+      },
+      {
+        "netclass": "12v_s",
+        "pattern": "/12v_R7"
       }
     ]
   },
