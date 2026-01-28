@@ -38,5 +38,5 @@ Dual-stage protection circuitry for enhanced safety and reliability in diverse e
 IMP serves as a prototype/research platform for developing, testing, and educational projects in the UAV domain. Its architecture emphasizes extreme energy efficiency through advanced low-power modes.
 
 ⚠️ Important Notice: This project is intended for civilian, research, and educational purposes only. Always adhere to local laws and safety regulations when working with UAV components.
-## Documentation
-<img src="https://i.ibb.co/1tK6HvFM/Schematic-iniciator-2025-12-13.png" width="800">
+
+
