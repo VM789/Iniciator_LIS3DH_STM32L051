@@ -629,7 +629,7 @@
       "plot": "C:/Users/volod/OneDrive/Desktop/Iniciator_LIS3DH_STM32L051/IMP_nano/GERBER/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "IMP_nano.step",
       "svg": "",
       "vrml": ""
     },
