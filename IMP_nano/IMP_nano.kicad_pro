@@ -626,7 +626,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/volod/OneDrive/Desktop/Iniciator_LIS3DH_STM32L051/IMP_nano/GERBER/",
+      "plot": "GERBER_IMP/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "IMP_nano.step",
